@@ -1,0 +1,28 @@
+	/* for pdf */
+
+	*				{
+					 margin:0;
+					 padding:0;
+					 outline:0;
+					 border:0;
+					 font-weight:normal;
+					 box-sizing:inherit;
+					}
+
+	html				{box-sizing:border-box;}
+
+	html,
+	body				{font-family:"Myriad Pro"; color:#7a53ab; font-size:10.5pt;}
+
+
+	.page				{width:210mm; height:297mm; padding:0 34mm; margin:0 auto;}
+
+	h1				{padding:30mm 34mm 8mm 34mm; margin:0 -34mm; font-size:2em; color:#fff; background:#6c4997;}
+	.owl				{position:absolute; top:3mm; width:42mm; margin-left:-50mm; opacity:0.5;}
+
+	h1 + p				{margin-top:2.5em;}
+	p				{line-height:1.5em; margin:1.5em 0; text-align:justify;}
+
+	em				{font-style:normal; color:#101;}
+
+	.s1				{font-size:1.1em;}
